@@ -1,7 +1,7 @@
 # GCN_for_EEG
 Graph Convolutional Networks for 4-class EEG Classification
 
-# The Full PYTHON interpertation!
+## The Pure PYTHON interpertation!
 
 ### Inspirations :
 | Name | Description |
