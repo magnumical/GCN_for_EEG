@@ -3,7 +3,7 @@ Graph Convolutional Networks for 4-class EEG Classification
 
 # The Full PYTHON interpertation!
 
-### Credits of this work is for :
+### Inspirations :
 | Name | Description |
 | --- | --- |
 | [Michaël Defferrard](https://github.com/mdeff/cnn_graph)| Created the basics of GCN! |
