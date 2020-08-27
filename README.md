@@ -32,11 +32,14 @@ It results is available in folder _pythondata_ as .csv files
 
 1. Absolute Pearso matrix
 
-![image](https://github.com/magnumical/GCN_for_EEG/blob/master/02Preprocess/Withpython/pythondata/pythonimg/Absolute_Pearson_matrix.png
-)
+
+<img src="https://github.com/magnumical/GCN_for_EEG/blob/master/02Preprocess/Withpython/pythondata/pythonimg/Absolute_Pearson_matrix.png" data-canonical-src="https://imreza.ir" width="350" height="350" />
+
 
 
 ### Classification with basic GCN
+<img src="https://github.com/magnumical/GCN_for_EEG/blob/master/acc.png" data-canonical-src="https://imreza.ir" width="450" height="250" />
 
-![image](https://github.com/magnumical/GCN_for_EEG/blob/master/acc.png)
+
+<img src="https://github.com/magnumical/GCN_for_EEG/blob/master/logom.png" data-canonical-src="https://imreza.ir" width="300" height="100" />
 
