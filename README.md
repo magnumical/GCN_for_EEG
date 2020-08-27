@@ -28,7 +28,7 @@ It results is available in folder _pythondata_ as .csv files
 4. Pandas
 5. Pyedflib
 
-### Results of Preprocessing
+### Some Results of Preprocessing
 
 1. Absolute Pearso matrix
 
@@ -39,3 +39,7 @@ It results is available in folder _pythondata_ as .csv files
 2.Laplacian Matrix 
 
 ![image](https://github.com/magnumical/GCN_for_EEG/blob/master/02Preprocess/Withpython/pythondata/pythonimg/Laplacian_Matrix.png)
+
+### Classification with basic GCN
+![image](https://github.com/magnumical/GCN_for_EEG/blob/master/02Preprocess/Withpython/pythondata/pythonimg/Laplacian_Matrix.png)
+
