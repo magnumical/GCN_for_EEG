@@ -5,7 +5,7 @@ Created on Mon Aug 24 01:52:33 2020
 @author: REZA
 """
 
-from scripts import models, graph, coarsening,GCN_Model,DenseGCN_Model
+from scripts import models, graph, coarsening,GCN_Model,DenseGCN_Modelc
 from scripts.dataread import dataread
 #%%
 import numpy as np
