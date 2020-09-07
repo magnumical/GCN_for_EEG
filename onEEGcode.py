@@ -23,8 +23,12 @@ sess=tf.compat.v1.Session(config=config)
 
 
 #%%
-DIR = 'files/'
-train_data, train_labels, test_data, test_labels= dataread(DIR)
+
+train_data= np.load('files/training_set.npy').astype('float32')
+train_labels= np.load('files/training_label.npy').astype('float32')
+
+test_data= np.load('files/test_set.npy').astype('float32')
+test_labels= np.load('files/test_label.npy').astype('float32')
 
 print('==============> Data read!')
   

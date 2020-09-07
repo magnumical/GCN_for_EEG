@@ -146,10 +146,10 @@ training_label = All_of_Dataset[0:tt , 64];
 test_set       = All_of_Dataset[tt+1:, 0:63];
 test_label     = All_of_Dataset[tt+1:, 64];
 
-np.savetxt("pythondata/training_set.csv", training_set)
-np.savetxt("pythondata/training_label.csv", training_label)
-np.savetxt("pythondata/test_set.csv", test_set)
-np.savetxt("pythondata/test_label.csv", test_label)
+np.save("pythondata/training_set", training_set)
+np.save("pythondata/training_label", training_label)
+np.save("pythondata/test_set", test_set)
+np.save("pythondata/test_label", test_label)
 
 print('[info] Everything is ready now! ')
 
