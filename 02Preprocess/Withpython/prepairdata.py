@@ -66,7 +66,8 @@ plt.imshow(Absolute_Pearson_matrix,extent=[0,64, 0, 64],cmap='viridis')
 print('[info] Calculating Adjacency Matrix')
 Eye_Matrix = np.eye(64, 64);
 Adjacency_Matrix = Absolute_Pearson_matrix - Eye_Matrix;
-np.savetxt("pythondata/Adjacency_Matrix.csv", Adjacency_Matrix)
+np.save("pythondata/Adjacency_Matrix", Adjacency_Matrix)
+
 print('[info] Adjacency Matrix is Calculated')
 
 plt.figure()

@@ -5,8 +5,8 @@ Created on Mon Aug 24 01:52:33 2020
 @author: REZA
 """
 
-from scripts import models, graph, coarsening,GCN_Model,DenseGCN_Modelc
-from scripts.dataread import dataread
+from scripts import models, graph, coarsening,GCN_Model,DenseGCN_Model
+
 #%%
 import numpy as np
 import pandas as pd
@@ -39,8 +39,8 @@ train_labels=train_labels.reshape(967680,)
 #test_data=test_data.reshape(64,107520)
 
 #%%
-Adjacency_Matrix = pd.read_csv(DIR+'Adjacency_Matrix.csv', header=None)
-Adjacency_Matrix = np.array(Adjacency_Matrix).astype('float32')
+DIR='files/'
+Adjacency_Matrix = np.load('files/Adjacency_Matrix.npy').astype('float32')
 Adjacency_Matrix = sparse.csr_matrix(Adjacency_Matrix)
 print('==============> Adjancy matrix read!')
 
@@ -92,7 +92,7 @@ model = models.cgcnn(L, **params)
 #model=DenseGCN_Model.cgcnn(L, **params)
 
 print('==============>model  established!')
-accuracy, loss, t_step = model.fit(train_data, train_labels, test_data, test_labels)
+accuracy, loss, t_step = model.fit(X_train, train_labels, X_test, test_labels)
 
 print('==============>model  fitted!')
 
