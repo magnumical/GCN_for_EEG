@@ -33,7 +33,7 @@ It results is available in folder _pythondata_ as .csv files
 1. Absolute Pearso matrix
 
 
-<img src="https://github.com/magnumical/GCN_for_EEG/blob/master/02Preprocess/Withpython/pythondata/pythonimg/Absolute_Pearson_matrix.png" data-canonical-src="https://imreza.ir" width="350" height="350" />
+<img src="https://github.com/magnumical/GCN_for_EEG/blob/master/Absolute_Pearson_matrix.png" data-canonical-src="https://imreza.ir" width="350" height="350" />
 
 
 
